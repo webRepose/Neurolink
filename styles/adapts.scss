@@ -1,0 +1,288 @@
+@media (max-width:1620px) {
+    .footer {
+        &-items {
+            margin-left: 40%;
+        }
+
+        &-sub {
+            width: 700px;
+        }
+    }
+}
+
+/* Large desktops and laptops */
+@media (max-width: 1440px) {
+    .menu {
+        img {
+            width: 57px;
+            height: 36px;
+        }
+
+        &-items {
+            li {
+                font-size: 13px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    .first-img {
+        margin: 28px auto 70px auto;
+        max-width: 200px;
+        height: 407px;
+    }
+
+    .two-img {
+        margin: 32px auto 78px auto;
+        max-width: 300px;
+        height: 400px;
+
+        &__one {
+            margin: 62px auto 48px auto;
+            max-width: 320px;
+            height: 400px;
+        }
+    }
+
+    .footer {
+        &-items {
+            margin-left: 30%;
+        }
+
+        &-sub {
+            width: 500px;
+        }
+    }
+}
+
+
+@media (max-width:1281px) {
+    .footer-items {
+        margin-left: 10%;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    .chars {
+        display: block;
+        width: 90%;
+
+        &-sub1 {
+            width: 100%;
+        }
+
+        &-sub2 {
+            width: 100%;
+        }
+
+        &-sub3 {
+            width: 100%;
+        }
+    }
+
+    .create-block {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1130px) {
+    .footer {
+        height: 277px;
+
+        &-sub {
+            display: block;
+            width: 365px;
+        }
+
+        &-items {
+            margin-left: 25%;
+        }
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .menu {
+        ul {
+            display: none;
+        }
+
+        button {
+            display: block;
+        }
+    }
+
+    .footer {
+        height: 277px;
+
+        &-email {
+            margin-left: 0;
+        }
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 868px) {
+    .footer {
+        width: 400px;
+
+        &-email {
+            position: relative;
+            top: 80px;
+            right: 150px;
+        }
+
+        &-items {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 557px) {
+
+    .join-team {
+        display: block;
+
+        a {
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+    }
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .menu-items {
+        margin-right: 50px;
+    }
+
+    .chars {
+        &-sub1 {
+            padding: 58px 0 58px 25px;
+            height: auto;
+            width: 110%;
+        }
+
+        &-sub2 {
+            padding: 58px 0 58px 25px;
+            height: auto;
+            width: 110%;
+        }
+
+        &-sub3 {
+            padding: 58px 0 58px 25px;
+            height: auto;
+            width: 110%;
+        }
+    }
+
+    .header {
+        height: 550px;
+        padding: 22px 0 22px 25px;
+        width: 100%;
+    }
+
+    .join {
+        &-text {
+            height: 300px;
+
+            h1 {
+                font-size: 51px;
+            }
+        }
+
+        .icon-Vector-1 {
+            margin: -3px 0 0 7px;
+
+            &::before {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .create {
+        padding: 58px 25px 58px 25px;
+        height: 550px;
+        width: 100%;
+
+        p {
+            width: 100%;
+            margin-bottom: 200px;
+        }
+    }
+
+    .footer {
+        padding: 38px 0 38px 25px;
+        width: 300px;
+    }
+
+    .first-img {
+        margin-top: 50px;
+    }
+
+    .two-img {
+        margin: 28px 0 78px 0;
+
+        &__one {
+            margin: 62px 0 105px 0;
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .footer {
+        width: 160px;
+
+        p {
+            font-size: 19px;
+        }
+
+        &-email {
+            position: relative;
+            right: 180px;
+        }
+    }
+}
+
+@media (max-width:320px) {
+    .two-img__one {
+        max-width: 280px;
+    }
+}
+
+/* phones smaller */
+@media (max-width: 280px) {
+    .chars {
+        &-sub1 {
+            padding: 58px 30px;
+        }
+
+        &-sub2 {
+            padding: 58px 30px;
+        }
+
+        &-sub3 {
+            padding: 58px 30px;
+        }
+
+        &-block {
+            height: 138px;
+        }
+    }
+
+    .first-img {
+        max-width: 200px;
+    }
+
+    .two-img {
+        max-width: 230px;
+
+        &__one {
+            max-width: 250px;
+        }
+    }
+}

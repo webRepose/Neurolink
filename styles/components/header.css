@@ -1,0 +1,72 @@
+.header {
+  background: url(../img/head.jpg) center top;
+  background-size: cover;
+  height: 660px;
+  padding: 22px 60px 0 60px;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+}
+.menu img {
+  width: 77px;
+  height: auto;
+}
+.menu-items {
+  margin-left: auto;
+  max-width: 100px;
+  margin-right: 100px;
+}
+.menu-items button {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+}
+.menu-items button div {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.menu li {
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.join {
+  margin-top: 77px;
+}
+.join-text {
+  max-width: 427px;
+  border-bottom: 2px solid;
+  height: 348.5px;
+  margin-bottom: 21.5px;
+}
+.join-text h1 {
+  -webkit-animation: tech-text 0.5s ease-in-out forwards;
+          animation: tech-text 0.5s ease-in-out forwards;
+  font-size: 57px;
+  line-height: 70px;
+  margin-top: 50px;
+}
+.join-team {
+  display: flex;
+  position: relative;
+  right: 60px;
+  -webkit-animation: join-team 1s ease-in-out forwards;
+          animation: join-team 1s ease-in-out forwards;
+  text-transform: uppercase;
+}
+.join-team a {
+  margin-right: 41px;
+  display: flex;
+}
+.join-team h3 {
+  font-size: 19px;
+}/*# sourceMappingURL=header.css.map */

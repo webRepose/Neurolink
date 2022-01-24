@@ -1,0 +1,56 @@
+@import "keyframes";
+@import "vars";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "../icomoon/style.css";
+
+
+::-webkit-scrollbar {
+    width: 0.78vw;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 81%);
+    border-radius: 1.17vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    color: white;
+    min-width: 280px;
+}
+
+a,
+p,
+h1,
+h4,
+li,
+h3,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: $fw-normal;
+}
+
+.icon-Vector-1 {
+    margin: 4px 0 0 7px;
+
+    &::before {
+        font-size: 15px;
+    }
+}

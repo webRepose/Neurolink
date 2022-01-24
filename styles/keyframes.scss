@@ -1,0 +1,23 @@
+@keyframes tech-text {
+    from {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes join-team {
+    from {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(60px);
+        opacity: 1;
+    }
+}

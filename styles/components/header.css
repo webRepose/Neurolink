@@ -38,6 +38,9 @@
   line-height: 20px;
   margin-bottom: 5px;
 }
+.menu li a {
+  padding: 0 8.5px 5px 7px;
+}
 
 .join {
   margin-top: 77px;
@@ -46,7 +49,7 @@
   max-width: 427px;
   border-bottom: 2px solid;
   height: 348.5px;
-  margin-bottom: 21.5px;
+  margin-bottom: 11.5px;
 }
 .join-text h1 {
   -webkit-animation: tech-text 0.5s ease-in-out forwards;
@@ -64,8 +67,9 @@
   text-transform: uppercase;
 }
 .join-team a {
-  margin-right: 41px;
+  margin-right: 20px;
   display: flex;
+  padding: 10px 10px 10px 10px;
 }
 .join-team h3 {
   font-size: 19px;

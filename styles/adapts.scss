@@ -20,7 +20,7 @@
 
         &-items {
             li {
-                font-size: 13px;
+                font-size: 18px;
                 margin-bottom: 0;
             }
         }
@@ -147,7 +147,6 @@
         display: block;
 
         a {
-            margin-bottom: 30px;
             font-size: 25px;
         }
     }
@@ -205,7 +204,7 @@
     }
 
     .create {
-        padding: 58px 25px 58px 25px;
+        padding: 58px 25px;
         height: 550px;
         width: 100%;
 
@@ -225,15 +224,15 @@
     }
 
     .two-img {
-        margin: 28px 0 78px 0;
+        margin: 28px 0 78px 30px;
 
         &__one {
-            margin: 62px 0 105px 0;
+            margin: 62px 0 105px 20px;
         }
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:375px) {
     .footer {
         width: 160px;
 
@@ -244,6 +243,14 @@
         &-email {
             position: relative;
             right: 180px;
+        }
+    }
+
+    .two-img {
+        margin: 28px 0 78px 10px;
+
+        &__one {
+            margin: 62px 0 105px 0;
         }
     }
 }

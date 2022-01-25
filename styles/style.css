@@ -144,6 +144,7 @@
 }
 .chars a {
   display: flex;
+  padding: 10px;
 }
 .chars h3 {
   text-transform: uppercase;
@@ -195,6 +196,7 @@
   display: flex;
   text-transform: uppercase;
   font-size: 20px;
+  padding: 10px;
 }
 
 .footer {
@@ -275,6 +277,14 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  color: #5c5858;
+  transition: color 0.3s ease;
+}
+a:hover [class*=icon-]::before {
+  color: #5c5858;
+  transition: color 0.3s ease;
+}
 
 body {
   overflow-x: hidden;
@@ -294,7 +304,7 @@ h2 {
 }
 
 .icon-Vector-1 {
-  margin: 4px 0 0 7px;
+  margin: 3px 0 0 7px;
 }
 .icon-Vector-1::before {
   font-size: 15px;

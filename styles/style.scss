@@ -27,6 +27,16 @@
 a {
     text-decoration: none;
     color: white;
+
+    &:hover {
+        color: rgb(92, 88, 88);
+        transition: color 0.3s ease;
+    }
+
+    &:hover [class*="icon-"]::before {
+        color: rgb(92, 88, 88);
+        transition: color 0.3s ease;
+    }
 }
 
 body {
@@ -47,7 +57,7 @@ h2 {
 }
 
 .icon-Vector-1 {
-    margin: 4px 0 0 7px;
+    margin: 3px 0 0 7px;
 
     &::before {
         font-size: 15px;

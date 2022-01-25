@@ -255,9 +255,47 @@
     }
 }
 
+@media (max-width:360px) {
+    .create {
+        padding: 58px 15px;
+    }
+
+    .footer {
+        padding: 38px 0 38px 15px;
+    }
+
+    .header {
+        padding: 22px 0 22px 15px;
+    }
+
+    .chars {
+        &-sub1 {
+            padding: 58px 0 58px 15px;
+        }
+
+        &-sub2 {
+            padding: 58px 0 58px 15px;
+        }
+
+        &-sub3 {
+            padding: 58px 0 58px 15px;
+        }
+    }
+}
+
 @media (max-width:320px) {
     .two-img__one {
         max-width: 280px;
+    }
+
+    .footer {
+        p {
+            font-size: 17px;
+        }
+
+        li {
+            font-size: 17px;
+        }
     }
 }
 

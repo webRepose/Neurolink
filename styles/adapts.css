@@ -61,9 +61,16 @@
   .chars-sub3 {
     width: 100%;
   }
+  .chars-block {
+    width: 90%;
+  }
 
   .create-block {
-    width: 100%;
+    width: 90%;
+  }
+
+  .join-text {
+    width: 90%;
   }
 }
 @media (max-width: 1130px) {

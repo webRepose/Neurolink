@@ -67,7 +67,7 @@
 @media (max-width: 1199px) {
     .chars {
         display: block;
-        width: 90%;
+        width: 100%;
 
         &-sub1 {
             width: 100%;
@@ -163,19 +163,16 @@
         &-sub1 {
             padding: 58px 0 58px 25px;
             height: auto;
-            width: 110%;
         }
 
         &-sub2 {
             padding: 58px 0 58px 25px;
             height: auto;
-            width: 110%;
         }
 
         &-sub3 {
             padding: 58px 0 58px 25px;
             height: auto;
-            width: 110%;
         }
     }
 

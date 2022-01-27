@@ -82,16 +82,16 @@
         }
 
         &-block {
-            width: 90%;
+            width: 88%;
         }
     }
 
     .create-block {
-        width: 90%;
+        width: 88%;
     }
 
     .join-text {
-        width: 90%;
+        width: 88%;
     }
 }
 
@@ -237,6 +237,12 @@
     }
 }
 
+@media (max-width:420px) {
+    .first-img {
+        margin-left: 75px;
+    }
+}
+
 @media (max-width:375px) {
     .footer {
         width: 160px;
@@ -249,6 +255,10 @@
             position: relative;
             right: 180px;
         }
+    }
+
+    .first-img {
+        margin-left: 50px;
     }
 
     .two-img {

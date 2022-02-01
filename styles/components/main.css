@@ -30,7 +30,7 @@
 }
 .chars a {
   display: flex;
-  padding: 10px;
+  padding: 7px;
 }
 .chars h3 {
   text-transform: uppercase;

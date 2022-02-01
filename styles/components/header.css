@@ -9,6 +9,9 @@
 .menu {
   display: flex;
 }
+.menu a {
+  height: 60px;
+}
 .menu img {
   width: 77px;
   height: auto;
@@ -16,7 +19,7 @@
 .menu-items {
   margin-left: auto;
   max-width: 100px;
-  margin-right: 100px;
+  margin-right: 120px;
 }
 .menu-items button {
   display: none;
@@ -30,6 +33,14 @@
   height: 2px;
   margin-bottom: 10px;
   background-color: black;
+}
+.menu-items button div:last-child {
+  width: 50%;
+  margin-left: auto;
+}
+.menu-items button div:nth-child(2) {
+  width: 70%;
+  margin-left: auto;
 }
 .menu li {
   text-transform: uppercase;
@@ -69,7 +80,7 @@
 .join-team a {
   margin-right: 20px;
   display: flex;
-  padding: 10px 10px 10px 10px;
+  padding: 7px;
 }
 .join-team h3 {
   font-size: 19px;

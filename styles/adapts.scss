@@ -98,7 +98,7 @@
 
 @media (max-width:1130px) {
     .footer {
-        height: 277px;
+        height: 227px;
 
         &-sub {
             display: block;
@@ -123,12 +123,8 @@
         }
     }
 
-    .footer {
-        height: 277px;
-
-        &-email {
-            margin-left: 0;
-        }
+    .footer-email {
+        margin-left: 0;
     }
 }
 
@@ -138,9 +134,7 @@
         width: 400px;
 
         &-email {
-            position: relative;
-            top: 80px;
-            right: 150px;
+            margin-top: 80px;
         }
 
         &-items {
@@ -150,6 +144,10 @@
 }
 
 @media (max-width: 557px) {
+    .footer-email {
+        position: relative;
+        right: 150px;
+    }
 
     .join-team {
         display: block;
@@ -248,7 +246,7 @@
         width: 160px;
 
         p {
-            font-size: 19px;
+            font-size: 18px;
         }
 
         &-email {

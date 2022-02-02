@@ -1,0 +1,11 @@
+
+  {
+    "icons": [
+      {
+        "src": "../test/img/logo.svg",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

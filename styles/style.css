@@ -56,7 +56,7 @@
   }
 }
 .header {
-  background: url(../img/head.jpg) center top;
+  background: url(../img/head.avif) center top;
   background-size: cover;
   height: 660px;
   padding: 22px 60px 0 60px;
@@ -203,7 +203,7 @@
 }
 
 .create {
-  background: url(../img/back3.jpg) center top;
+  background: url(../img/back3.avif) center top;
   width: 100%;
   background-size: cover;
   height: 660px;

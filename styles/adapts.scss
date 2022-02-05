@@ -226,8 +226,9 @@
         width: 100%;
 
         p {
-            width: 100%;
+            width: 88%;
             margin-bottom: 200px;
+            font-size: 22px;
         }
 
         h3 {
@@ -275,7 +276,6 @@
         }
 
         &-email {
-            position: relative;
             right: 180px;
         }
     }
@@ -335,37 +335,67 @@
             font-size: 17px;
         }
     }
+
+    .join {
+        h3 {
+            font-size: 25px;
+        }
+    }
 }
 
 /* phones smaller */
 @media (max-width: 280px) {
     .chars {
         &-sub1 {
-            padding: 58px 30px;
+            padding: 58px 0 58px 10px;
         }
 
         &-sub2 {
-            padding: 58px 30px;
+            padding: 58px 0 58px 10px;
         }
 
         &-sub3 {
-            padding: 58px 30px;
+            padding: 58px 0 58px 10px;
         }
 
         &-block {
-            height: 138px;
+            height: 158px;
         }
     }
 
     .first-img {
         max-width: 200px;
+        margin-left: 30px;
     }
 
     .two-img {
-        max-width: 230px;
+        max-width: 255px;
+        margin-left: 0;
 
         &__one {
             max-width: 250px;
         }
+    }
+
+    .join {
+        h3 {
+            font-size: 23px;
+        }
+
+        .icon-Vector-1 {
+            margin: -1px 0 0 7px;
+
+            &::before {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .join-text h1 {
+        font-size: 44px;
+    }
+
+    .create p {
+        margin-bottom: 150px;
     }
 }

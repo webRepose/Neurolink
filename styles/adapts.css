@@ -47,26 +47,21 @@
   }
 }
 /* Portrait tablets and medium desktops */
-@media (max-width: 1199px) {
+@media (max-width: 1250px) {
   .chars {
     display: block;
-    width: 100%;
   }
   .chars-sub1 {
     width: 100%;
+    padding: 58px 0 0 0;
   }
   .chars-sub2 {
     width: 100%;
+    padding: 58px 0 0 0;
   }
   .chars-sub3 {
     width: 100%;
-  }
-  .chars-block {
-    width: 88%;
-  }
-
-  .create-block {
-    width: 88%;
+    padding: 58px 0 0 0;
   }
 
   .join-text {
@@ -97,6 +92,16 @@
   .footer-email {
     margin-left: 0;
   }
+
+  .chars h3 {
+    font-size: 30px;
+  }
+  .chars .icon-Vector-1 {
+    margin: 8px 0 0 7px;
+  }
+  .chars .icon-Vector-1::before {
+    font-size: 20px;
+  }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 868px) {
@@ -125,36 +130,8 @@
 }
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-  .menu-items {
-    margin-right: 50px;
-  }
-
-  .chars-sub1 {
-    padding: 58px 0 58px 25px;
-    height: auto;
-  }
-  .chars-sub2 {
-    padding: 58px 0 58px 25px;
-    height: auto;
-  }
-  .chars-sub3 {
-    padding: 58px 0 58px 25px;
-    height: auto;
-  }
-  .chars h3 {
-    font-size: 30px;
-  }
-  .chars .icon-Vector-1 {
-    margin: 8px 0 0 7px;
-  }
-  .chars .icon-Vector-1::before {
-    font-size: 20px;
-  }
-
   .header {
     height: 550px;
-    padding: 22px 0 22px 25px;
-    width: 100%;
   }
 
   .join-text {
@@ -162,6 +139,9 @@
   }
   .join-text h1 {
     font-size: 51px;
+  }
+  .join-team a {
+    margin-right: 0;
   }
   .join h3 {
     font-size: 27px;
@@ -171,13 +151,11 @@
   }
 
   .create {
-    padding: 58px 0 58px 25px;
     height: 550px;
-    width: 100%;
   }
   .create p {
     width: 88%;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     font-size: 22px;
   }
   .create h3 {
@@ -191,29 +169,10 @@
   }
 
   .footer {
-    padding: 38px 0 38px 25px;
-  }
-
-  .first-img {
-    margin-top: 50px;
-  }
-
-  .two-img {
-    margin: 28px 0 78px 30px;
-  }
-  .two-img__one {
-    margin: 62px 0 105px 10px;
-  }
-}
-@media (max-width: 420px) {
-  .first-img {
-    margin-left: 75px;
+    padding-top: 38px;
   }
 }
 @media (max-width: 375px) {
-  .footer {
-    width: 160px;
-  }
   .footer p {
     font-size: 18px;
   }
@@ -222,83 +181,17 @@
   }
 
   .first-img {
-    margin-left: 50px;
+    max-width: 200px;
   }
 
   .two-img {
-    margin: 28px 0 78px 10px;
+    max-width: 280px;
   }
-  .two-img__one {
-    margin: 62px 0 105px 0;
-  }
-}
-@media (max-width: 360px) {
-  .create {
-    padding: 58px 0 58px 15px;
-  }
-
-  .footer {
-    padding: 38px 0 38px 15px;
-  }
-
-  .header {
-    padding: 22px 0 22px 15px;
-  }
-
-  .chars-sub1 {
-    padding: 58px 0 58px 15px;
-  }
-  .chars-sub2 {
-    padding: 58px 0 58px 15px;
-  }
-  .chars-sub3 {
-    padding: 58px 0 58px 15px;
-  }
-}
-@media (max-width: 320px) {
   .two-img__one {
     max-width: 280px;
   }
-
-  .footer p {
-    font-size: 17px;
-  }
-  .footer li {
-    font-size: 17px;
-  }
-
-  .join h3 {
-    font-size: 25px;
-  }
 }
-/* phones smaller */
-@media (max-width: 280px) {
-  .chars-sub1 {
-    padding: 58px 0 58px 10px;
-  }
-  .chars-sub2 {
-    padding: 58px 0 58px 10px;
-  }
-  .chars-sub3 {
-    padding: 58px 0 58px 10px;
-  }
-  .chars-block {
-    height: 158px;
-  }
-
-  .first-img {
-    max-width: 200px;
-    margin-left: 30px;
-  }
-
-  .two-img {
-    max-width: 255px;
-    margin-left: 0;
-  }
-  .two-img__one {
-    max-width: 250px;
-  }
-
+@media (max-width: 360px) {
   .join h3 {
     font-size: 23px;
   }
@@ -309,11 +202,35 @@
     font-size: 17px;
   }
 
+  .create p {
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 320px) {
+  .footer p {
+    font-size: 17px;
+  }
+  .footer li {
+    font-size: 17px;
+  }
+
   .join-text h1 {
     font-size: 44px;
   }
+}
+/* phones smaller */
+@media (max-width: 280px) {
+  .chars-block {
+    height: 158px;
+  }
 
-  .create p {
-    margin-bottom: 150px;
+  .join h3 {
+    font-size: 22px;
+  }
+  .join .icon-Vector-1 {
+    margin: -2px 0 0 7px;
+  }
+  .join .icon-Vector-1::before {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=adapts.css.map */

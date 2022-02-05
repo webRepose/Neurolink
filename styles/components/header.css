@@ -2,7 +2,7 @@
   background: url(../img/head.avif) center top;
   background-size: cover;
   height: 660px;
-  padding: 22px 60px 0 60px;
+  padding-top: 22px;
   width: 100%;
 }
 
@@ -18,8 +18,6 @@
 }
 .menu-items {
   margin-left: auto;
-  max-width: 100px;
-  margin-right: 120px;
 }
 .menu-items button {
   display: none;

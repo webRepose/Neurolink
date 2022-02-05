@@ -72,10 +72,10 @@
     width: 100%;
     background-size: cover;
     height: 660px;
-    padding: 58px 60px 0 60px;
+    padding-top: 58px;
 
     &-block {
-        width: 25%;
+        max-width: 427px;
         height: 170px;
         border-bottom: 2px solid;
 

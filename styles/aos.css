@@ -16,7 +16,7 @@ body[data-aos-duration="400"] [data-aos] {
 
 [data-aos=fade-up] {
     transform: translate3d(0, 100px, 0);
-    width: 160px;
+    width: 200px;
 }
 
 [data-aos=fade-down] {

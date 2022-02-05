@@ -180,6 +180,18 @@
             padding: 58px 0 58px 25px;
             height: auto;
         }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .icon-Vector-1 {
+            margin: 8px 0 0 7px;
+
+            &::before {
+                font-size: 20px;
+            }
+        }
     }
 
     .header {
@@ -197,11 +209,13 @@
             }
         }
 
-        .icon-Vector-1 {
-            margin: -3px 0 0 7px;
+        h3 {
+            font-size: 27px;
+        }
 
+        .icon-Vector-1 {
             &::before {
-                font-size: 17px;
+                font-size: 20px;
             }
         }
     }
@@ -214,6 +228,18 @@
         p {
             width: 100%;
             margin-bottom: 200px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .icon-Vector-1 {
+            margin: 8px 0 0 7px;
+
+            &::before {
+                font-size: 20px;
+            }
         }
     }
 

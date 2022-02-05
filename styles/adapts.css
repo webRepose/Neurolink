@@ -173,7 +173,6 @@
 
   .footer {
     padding: 38px 0 38px 25px;
-    width: 300px;
   }
 
   .first-img {
@@ -184,7 +183,7 @@
     margin: 28px 0 78px 30px;
   }
   .two-img__one {
-    margin: 62px 0 105px 20px;
+    margin: 62px 0 105px 10px;
   }
 }
 @media (max-width: 420px) {

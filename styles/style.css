@@ -288,6 +288,9 @@
   margin-top: 36px;
   font-size: 18px;
 }
+.footer-email input:focus {
+  border-bottom: 2px solid indigo;
+}
 
 ::-webkit-scrollbar {
   width: 0.78vw;
@@ -365,7 +368,6 @@ h2 {
   top: 100%;
   width: 100%;
   background-color: darkgrey;
-  border: 1px solid;
   padding: 0 6px;
   color: white;
   transition: inherit;

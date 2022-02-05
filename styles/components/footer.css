@@ -55,4 +55,7 @@
   height: 27px;
   margin-top: 36px;
   font-size: 18px;
+}
+.footer-email input:focus {
+  border-bottom: 2px solid indigo;
 }/*# sourceMappingURL=footer.css.map */

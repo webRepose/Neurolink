@@ -65,6 +65,10 @@
             height: 27px;
             margin-top: 36px;
             font-size: 18px;
+
+            &:focus {
+                border-bottom: 2px solid indigo;
+            }
         }
     }
 }

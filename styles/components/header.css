@@ -70,7 +70,7 @@
 .join-team {
   display: flex;
   position: relative;
-  right: 60px;
+  left: -60px;
   -webkit-animation: join-team 1s ease-in-out forwards;
           animation: join-team 1s ease-in-out forwards;
   text-transform: uppercase;

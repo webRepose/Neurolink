@@ -80,7 +80,7 @@
     &-team {
         display: flex;
         position: relative;
-        right: 60px;
+        left: -60px;
         animation: join-team 1s ease-in-out forwards;
         text-transform: uppercase;
 

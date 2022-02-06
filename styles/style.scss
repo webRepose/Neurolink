@@ -5,6 +5,12 @@
 @import "components/footer";
 @import "../icomoon/style.css";
 
+html,
+body {
+    overflow-x: hidden
+}
+
+
 
 ::-webkit-scrollbar {
     width: 0.78vw;
@@ -40,7 +46,6 @@ a {
 }
 
 body {
-    overflow-x: hidden;
     font-size: 16px;
     color: white;
     font-family: "roboto";

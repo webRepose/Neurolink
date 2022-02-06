@@ -139,7 +139,7 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 868px) {
     .footer {
-        width: 400px;
+        width: 100%;
 
         &-email {
             margin-top: 80px;
@@ -154,7 +154,7 @@
 @media (max-width: 557px) {
     .footer-email {
         position: relative;
-        right: 150px;
+        left: -150px;
     }
 
     .join-team {
@@ -231,7 +231,7 @@
         }
 
         &-email {
-            right: 180px;
+            left: -190px;
         }
     }
 

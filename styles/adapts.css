@@ -85,7 +85,7 @@
   .menu ul {
     display: none;
   }
-  .menu button {
+  .menu .btn-menu {
     display: block;
   }
 

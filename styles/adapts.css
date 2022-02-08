@@ -148,6 +148,22 @@
     display: block;
     left: 85%;
   }
+  .menu ._activeBtn {
+    transform: translate(0, 0);
+  }
+  .menu ._activeBtn div {
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+  .menu ._activeBtn div:nth-child(2) {
+    transform: scale(0);
+  }
+  .menu ._activeBtn div:last-child {
+    bottom: 50%;
+    width: 100%;
+    transform: rotate(45deg) translate(0, 50%);
+  }
   .menu .logo {
     width: 57px;
     height: 36px;

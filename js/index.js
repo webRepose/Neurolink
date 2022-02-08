@@ -5,7 +5,7 @@ if (burger) {
     const logo = document.querySelector('.logo');
     // const menu = document.querySelector('.menu-m');
     burger.addEventListener("click", function(e) {
-        burger.classList.toggle('_active')
+        burger.classList.toggle('_activeBtn')
         document.body.classList.toggle('_lock')
         menuMobile.classList.toggle('_active')
         logo.classList.toggle('logo_active')

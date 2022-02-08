@@ -337,8 +337,7 @@ body {
   width: 100%;
 }
 
-._lock,
-html {
+._lock {
   position: relative;
   overflow: hidden;
 }

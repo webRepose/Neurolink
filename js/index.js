@@ -3,12 +3,11 @@ const burger = document.querySelector('.btn-menu');
 if (burger) {
     const menuMobile = document.querySelector('.menu-mobile');
     const logo = document.querySelector('.logo');
-    // const menu = document.querySelector('.menu-m');
+    const scroll = document.querySelector('html,body')
     burger.addEventListener("click", function(e) {
         burger.classList.toggle('_activeBtn')
-        document.body.classList.toggle('_lock')
         menuMobile.classList.toggle('_active')
         logo.classList.toggle('logo_active')
-        // menu.classList.toggle('menu-m')
+        scroll.classList.toggle('_lock')
     })
 }

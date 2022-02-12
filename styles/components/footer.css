@@ -3,7 +3,7 @@
   width: 100%;
   height: 157px;
   padding-top: 68px;
-  color: #858585;
+  color: #424242;
 }
 .footer-sub {
   display: flex;
@@ -13,7 +13,7 @@
   display: flex;
 }
 .footer a {
-  color: #858585;
+  color: #424242;
 }
 .footer-logo {
   width: 61px;

@@ -9,6 +9,7 @@
 html,
 body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -58,7 +59,6 @@ body {
     overflow: hidden;
 }
 
-
 a,
 p,
 h1,
@@ -96,7 +96,7 @@ h2 {
         transform: translateX(-50%);
         top: 100%;
         width: 100%;
-        background-color: darkgrey;
+        background-color: #424242;
         padding: 0 6px;
         color: white;
         transition: inherit;
@@ -104,6 +104,7 @@ h2 {
         z-index: -1;
         font-size: 16px;
         opacity: 0;
+        border: 1px solid #2e2e2e;
     }
 
     &:hover {

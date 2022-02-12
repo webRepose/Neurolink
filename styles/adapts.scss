@@ -136,19 +136,6 @@
 
 @media (max-width:767px) {
     .menu {
-        // &::before {
-        //     content: "";
-        //     position: fixed;
-        //     top: 0;
-        //     left: 0;
-        //     z-index: 6;
-        //     width: 100%;
-        //     background-color: #2e2e2e;
-        //     height: 70px;
-        //     transform: translate(100%, 0);
-        //     transition: transform 0.3s ease 0s;
-        // }
-
         ._active {
             transform: translate(0, 0);
             -webkit-transform: translate(0, 0);
@@ -164,7 +151,7 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background-color: #2e2e2e;
+            background-color: #424242;
             z-index: 4;
             transition: transform 0.3s ease 0s;
             padding: 0 30px 30px 0;
@@ -198,7 +185,6 @@
 
             div {
                 position: absolute;
-                top: 50%;
                 transform: rotate(-50deg) translate(0, -50%);
                 transition: all 0.2s ease;
 
@@ -207,9 +193,8 @@
                 }
 
                 &:last-child {
-                    bottom: 50%;
                     width: 100%;
-                    transform: rotate(50deg) translate(0, 50%);
+                    transform: rotate(50deg) translate(0, 0);
                 }
             }
         }

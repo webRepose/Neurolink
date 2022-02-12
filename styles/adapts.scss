@@ -217,11 +217,29 @@
         left: -150px;
     }
 
-    .join-team {
-        display: block;
+    .join {
+        &-text {
+            height: 300px;
+        }
 
-        a {
-            font-size: 25px;
+        &-team {
+            display: block;
+
+            a {
+                margin-right: 0;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .icon-Vector-1 {
+            margin: 8px 0 0 7px;
+
+            &::before {
+                font-size: 20px;
+            }
         }
     }
 }
@@ -234,16 +252,8 @@
     }
 
     .join {
-        &-text {
-            height: 300px;
-
-            h1 {
-                font-size: 51px;
-            }
-        }
-
-        &-team a {
-            margin-right: 0;
+        h1 {
+            font-size: 51px;
         }
 
         h3 {
@@ -251,6 +261,8 @@
         }
 
         .icon-Vector-1 {
+            margin-top: 7.5px;
+
             &::before {
                 font-size: 20px;
             }
@@ -315,7 +327,7 @@
         }
 
         .icon-Vector-1 {
-            margin: -1px 0 0 7px;
+            margin: 9px 0 0 7px;
 
             &::before {
                 font-size: 17px;

@@ -168,11 +168,23 @@
     left: -150px;
   }
 
+  .join-text {
+    height: 300px;
+  }
   .join-team {
     display: block;
   }
   .join-team a {
-    font-size: 25px;
+    margin-right: 0;
+  }
+  .join h3 {
+    font-size: 30px;
+  }
+  .join .icon-Vector-1 {
+    margin: 8px 0 0 7px;
+  }
+  .join .icon-Vector-1::before {
+    font-size: 20px;
   }
 }
 /* Landscape phones and smaller */
@@ -181,17 +193,14 @@
     height: 550px;
   }
 
-  .join-text {
-    height: 300px;
-  }
-  .join-text h1 {
+  .join h1 {
     font-size: 51px;
-  }
-  .join-team a {
-    margin-right: 0;
   }
   .join h3 {
     font-size: 27px;
+  }
+  .join .icon-Vector-1 {
+    margin-top: 7.5px;
   }
   .join .icon-Vector-1::before {
     font-size: 20px;
@@ -243,7 +252,7 @@
     font-size: 23px;
   }
   .join .icon-Vector-1 {
-    margin: -1px 0 0 7px;
+    margin: 9px 0 0 7px;
   }
   .join .icon-Vector-1::before {
     font-size: 17px;

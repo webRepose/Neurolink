@@ -12,45 +12,35 @@ if (burger) {
     })
 }
 
-const link = document.querySelector(".link");
-link.addEventListener("click", () => {
+function Links() {
     burger.classList.remove('_activeBtn');
     menuMobile.classList.remove('_active');
     logo.classList.remove('logo_active');
     scroll.classList.remove('_lock');
+}
+
+const link = document.querySelector(".link");
+link.addEventListener("click", () => {
+    Links()
 });
 
 const link1 = document.querySelector(".link1");
 link1.addEventListener("click", () => {
-    burger.classList.remove('_activeBtn');
-    menuMobile.classList.remove('_active');
-    logo.classList.remove('logo_active');
-    scroll.classList.remove('_lock');
+    Links()
 });
 
 
 const link2 = document.querySelector(".link2");
 link2.addEventListener("click", () => {
-    burger.classList.remove('_activeBtn');
-    menuMobile.classList.remove('_active');
-    logo.classList.remove('logo_active');
-    scroll.classList.remove('_lock');
+    Links()
 });
 
 const link3 = document.querySelector(".link3");
 link3.addEventListener("click", () => {
-    burger.classList.remove('_activeBtn');
-    menuMobile.classList.remove('_active');
-    logo.classList.remove('logo_active');
-    scroll.classList.remove('_lock');
+    Links()
 });
 
 const link4 = document.querySelector(".link4");
 link4.addEventListener("click", () => {
-    burger.classList.remove('_activeBtn');
-    menuMobile.classList.remove('_active');
-    logo.classList.remove('logo_active');
-    scroll.classList.remove('_lock');
+    Links()
 });
-
-

@@ -1,6 +1,9 @@
 .header {
     background: url(../img/head.avif) center top;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     height: 660px;
     padding-top: 22px;
     width: 100%;

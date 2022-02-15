@@ -38,12 +38,12 @@ a {
 
     &:hover {
         color: rgb(92, 88, 88);
-        transition: color 0.3s ease;
+        transition: 0.3s ease;
     }
 
     &:hover [class*="icon-"]::before {
         color: rgb(92, 88, 88);
-        transition: color 0.3s ease;
+        transition: 0.3s ease;
     }
 }
 
@@ -76,6 +76,7 @@ h2 {
 
     &::before {
         font-size: 15px;
+        transition: 0.3s ease;
     }
 }
 

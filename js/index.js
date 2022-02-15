@@ -29,7 +29,6 @@ link1.addEventListener("click", () => {
     Links()
 });
 
-
 const link2 = document.querySelector(".link2");
 link2.addEventListener("click", () => {
     Links()

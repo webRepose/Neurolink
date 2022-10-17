@@ -338,11 +338,11 @@ a {
   color: white;
 }
 a:hover {
-  color: #5c5858;
+  color: rgb(92, 88, 88);
   transition: 0.3s ease;
 }
 a:hover [class*=icon-]::before {
-  color: #5c5858;
+  color: rgb(92, 88, 88);
   transition: 0.3s ease;
 }
 

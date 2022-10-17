@@ -12,13 +12,11 @@
     font-size: 18px;
     margin-bottom: 0;
   }
-
   .first-img {
     margin: 28px auto 70px auto;
     max-width: 200px;
     height: 407px;
   }
-
   .two-img {
     margin: 32px auto 78px auto;
     max-width: 300px;
@@ -29,7 +27,6 @@
     max-width: 320px;
     height: 400px;
   }
-
   .footer-items {
     margin-left: 30%;
   }
@@ -59,7 +56,6 @@
     width: 100%;
     padding: 58px 0 0 0;
   }
-
   .join-text {
     width: 88%;
   }
@@ -81,7 +77,6 @@
   .footer-email {
     margin-left: 0;
   }
-
   .chars h3 {
     font-size: 30px;
   }
@@ -167,7 +162,6 @@
     position: relative;
     left: -150px;
   }
-
   .join-text {
     height: 300px;
   }
@@ -192,7 +186,6 @@
   .header {
     height: 550px;
   }
-
   .join h1 {
     font-size: 51px;
   }
@@ -205,7 +198,6 @@
   .join .icon-Vector-1::before {
     font-size: 20px;
   }
-
   .create {
     height: 550px;
   }
@@ -223,7 +215,6 @@
   .create .icon-Vector-1::before {
     font-size: 20px;
   }
-
   .footer {
     padding-top: 38px;
   }
@@ -235,11 +226,9 @@
   .footer-email {
     left: -170px;
   }
-
   .first-img {
     max-width: 200px;
   }
-
   .two-img {
     max-width: 280px;
   }
@@ -257,7 +246,6 @@
   .join .icon-Vector-1::before {
     font-size: 17px;
   }
-
   .create p {
     margin-bottom: 130px;
   }
@@ -269,7 +257,6 @@
   .footer li {
     font-size: 17px;
   }
-
   .join-text h1 {
     font-size: 44px;
   }
@@ -279,7 +266,6 @@
   .chars-block {
     height: 158px;
   }
-
   .join h3 {
     font-size: 22px;
   }

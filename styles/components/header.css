@@ -1,5 +1,5 @@
 .header {
-  background: url(../img/head.avif) center top;
+  background: url(../img/head.png) center top;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -33,7 +33,6 @@
   z-index: 6;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .menu-items .btn-menu div {
@@ -72,8 +71,7 @@
   margin-bottom: 11.5px;
 }
 .join-text h1 {
-  -webkit-animation: tech-text 0.5s ease-in-out forwards;
-          animation: tech-text 0.5s ease-in-out forwards;
+  animation: tech-text 0.5s ease-in-out forwards;
   font-size: 57px;
   line-height: 70px;
   margin-top: 50px;
@@ -82,8 +80,7 @@
   display: flex;
   position: relative;
   left: -60px;
-  -webkit-animation: join-team 1s ease-in-out forwards;
-          animation: join-team 1s ease-in-out forwards;
+  animation: join-team 1s ease-in-out forwards;
   text-transform: uppercase;
 }
 .join-team a {

@@ -1,15 +1,5 @@
 @import "../icomoon/style.css";
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-@-webkit-keyframes tech-text {
-  from {
-    transform: translateY(80px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 @keyframes tech-text {
   from {
     transform: translateY(80px);
@@ -17,16 +7,6 @@
   }
   to {
     transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes join-team {
-  from {
-    transform: translateX(0px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(60px);
     opacity: 1;
   }
 }
@@ -40,14 +20,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes clue {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes clue {
   from {
     opacity: 0;
@@ -57,7 +29,7 @@
   }
 }
 .header {
-  background: url(../img/head.avif) center top;
+  background: url(../img/head.png) center top;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -91,7 +63,6 @@
   z-index: 6;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .menu-items .btn-menu div {
@@ -130,8 +101,7 @@
   margin-bottom: 11.5px;
 }
 .join-text h1 {
-  -webkit-animation: tech-text 0.5s ease-in-out forwards;
-          animation: tech-text 0.5s ease-in-out forwards;
+  animation: tech-text 0.5s ease-in-out forwards;
   font-size: 57px;
   line-height: 70px;
   margin-top: 50px;
@@ -140,8 +110,7 @@
   display: flex;
   position: relative;
   left: -60px;
-  -webkit-animation: join-team 1s ease-in-out forwards;
-          animation: join-team 1s ease-in-out forwards;
+  animation: join-team 1s ease-in-out forwards;
   text-transform: uppercase;
 }
 .join-team a {
@@ -214,7 +183,7 @@
 }
 
 .create {
-  background: url(../img/back3.avif) center top;
+  background: url(../img/back3.png) center top;
   background-size: cover;
   height: 660px;
   padding-top: 58px;
@@ -388,7 +357,6 @@ h2 {
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   display: inline-block;
 }
@@ -410,8 +378,7 @@ h2 {
   border: 1px solid #2e2e2e;
 }
 .clue:hover::before {
-  -webkit-animation: clue 1s ease;
-          animation: clue 1s ease;
+  animation: clue 1s ease;
   visibility: visible;
   z-index: 10;
   opacity: 1;

@@ -1,1 +1,1 @@
-# Neurolink
+Стэк: HTML, SCSS, JS
